@@ -4,7 +4,7 @@
  *
  *  * main - Entry point
  *
- *   *
+ *   *description- using the main funnction
  *
  *    * Return: always 0
  *
