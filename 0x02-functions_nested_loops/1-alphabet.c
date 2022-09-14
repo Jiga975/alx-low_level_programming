@@ -1,11 +1,11 @@
 #include "main.h"
 /*
- * print_alphabet - prints alphabet
- * Return: (0)
+ * print_alphabet - Entry point
+ * Return:0
  */
 void print_alphabet(void)
 {
-	char i;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
