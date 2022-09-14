@@ -1,16 +1,12 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
- * _islower - main function
+ *_isalpha - checks for alphabetic character
  * @c: a character in ASCII code
- * Return: 1 if true, 0 if false
+ * Return:Return: 1 if c is a letter, 0 otherwise
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122)
-	{	
-		return (1);
-	}
-	return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
 
